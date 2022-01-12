@@ -33,3 +33,6 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:blob-wave-peek:`
 <img src="./emojis/blob-wave-peek.gif" alt=":blob-wave-peek:" width=64>
+
+## `:meow_wave_peek:`
+<img src="./emojis/meow_wave_peek.png" alt=":meow_wave_peek:" width=64>
