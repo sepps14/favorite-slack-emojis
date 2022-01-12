@@ -1,6 +1,12 @@
 # favorite-slack-emojis
 Set of my favorite slack emojis to use 🙂
 
+### Saving gif from preview
+Sometimes I edit gifs in macOS preview, but saving seems to break the looping behavior. To fix that I used `imagemagick` `convert` (`brew install imagemagick`)
+```
+❯ convert -loop 0 source.gif destination.gif
+```
+
 ## `:gopher_peek:`
 <img src="./emojis/gopher_peek.png" alt=":gopher_peek:" width=64>
 
@@ -24,3 +30,6 @@ Set of my favorite slack emojis to use 🙂
 
 ## `:rage_cry:`
 <img src="./emojis/rage_cry.png" alt=":rage_cry:" width=64>
+
+## `:blob-wave-peek:`
+<img src="./emojis/blob-wave-peek.gif" alt=":blob-wave-peek:" width=64>
