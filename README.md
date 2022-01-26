@@ -48,3 +48,6 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:anticipation:`
 <img src="./emojis/anticipation.png" alt=":anticipation:" width=64>
+
+## `:hhhehehe:`
+<img src="./emojis/hhhehehe.gif" alt=":hhhehehe:" width=64>
