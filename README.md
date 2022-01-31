@@ -57,3 +57,9 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:true:`
 <img src="./emojis/true.png" alt=":true:" width=64>
+
+## `:party_pizza:`
+<img src="./emojis/party_pizza.gif" alt=":party_pizza:" width=64>
+
+## `:pizza_wave:`
+<img src="./emojis/pizza_wave.gif" alt=":pizza_wave:" width=64>
