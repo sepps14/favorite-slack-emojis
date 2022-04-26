@@ -78,3 +78,15 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:party-merge:`
 <img src="./emojis/party-merge.gif" alt=":party-merge:" width=64>
+
+## `:blink:`
+<img src="./emojis/blink.gif" alt=":blink:" width=64>
+
+## `:doot-doot:`
+<img src="./emojis/doot-doot.gif" alt=":doot-doot:" width=64>
+
+## `:cowboy-eyes:`
+<img src="./emojis/cowboy-eyes.png" alt=":cowboy-eyes:" width=64>
+
+## `:cowboy-ghost:`
+<img src="./emojis/cowboy-ghost.png" alt=":cowboy-ghost:" width=64>
