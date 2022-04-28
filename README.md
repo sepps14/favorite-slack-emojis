@@ -90,3 +90,9 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:cowboy-ghost:`
 <img src="./emojis/cowboy-ghost.png" alt=":cowboy-ghost:" width=64>
+
+## `:pizza_peek:`
+<img src="./emojis/pizza_peek.png" alt=":pizza_peek:" width=64>
+
+## `:peek_template:`
+<img src="./emojis/peek_template.png" alt=":peek_template:" width=64>
