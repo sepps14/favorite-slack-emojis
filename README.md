@@ -99,3 +99,6 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:pizza_activated:`
 <img src="./emojis/pizza_activated.gif" alt=":pizza_activated:" width=64>
+
+## `:not_like:`
+<img src="./emojis/not_like.png" alt=":not_like:" width=64>
