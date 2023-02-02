@@ -102,3 +102,6 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:not_like:`
 <img src="./emojis/not_like.png" alt=":not_like:" width=64>
+
+## `:argo_intensifies:`
+<img src="./emojis/argo_intensifies.gif" alt=":argo_intensifies:" width=64>
