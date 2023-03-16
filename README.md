@@ -7,6 +7,38 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 ❯ convert -loop 0 source.gif destination.gif
 ```
 
+### Intensify
+```sh
+#!/bin/sh
+
+fileToIntensify=$1
+fileOutput=$2
+tempFileName=intensifier-temp
+jitter=4
+jitterRange=$((($jitter*2)+1))
+
+for i in {1..10}
+do
+  ecks=$(($RANDOM%$jitterRange-$jitter))
+  why=$(($RANDOM%$jitterRange-$jitter))
+
+  if [ $ecks -ge 0 ]; then ecks="+"$ecks; fi;
+  if [ $why -ge 0 ]; then why="+"$why; fi;
+
+  echo $ecks$why
+  convert -page $ecks$why $fileToIntensify -background none -flatten $tempFileName.$i
+done
+
+convert -delay 3 -dispose Background +page $tempFileName.* -colors 128 -loop 0 $fileOutput
+
+rm $tempFileName.*
+```
+
+Use as
+```sh
+./intensify.sh {input_file} {output_file}
+```
+
 ## `:gopher_peek:`
 <img src="./emojis/gopher_peek.png" alt=":gopher_peek:" width=64>
 
@@ -105,3 +137,12 @@ Sometimes I edit gifs in macOS preview, but saving seems to break the looping be
 
 ## `:argo_intensifies:`
 <img src="./emojis/argo_intensifies.gif" alt=":argo_intensifies:" width=64>
+
+## `:gopher_coffee:`
+<img src="./emojis/gopher_coffee.gif" alt=":gopher_coffee:" width=64>
+
+## `:gopher_beer:`
+<img src="./emojis/gopher_beer.gif" alt=":gopher_beer:" width=64>
+
+## `:gopher_intensifies:`
+<img src="./emojis/gopher_intensifies.gif" alt=":gopher_intensifies:" width=64>
